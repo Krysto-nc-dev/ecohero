@@ -46,7 +46,7 @@ export const Rewards = pgTable("rewards", {
   collectionInfo: text("collection_info").notNull(),
 });
 
-export const CollectedWaste = pgTable("collected_waste", {
+export const CollectedWastes = pgTable("collected_waste", {
   id: serial("id").primaryKey(),
   report_id: integer("report_id")
     .references(() => Reports.id)
@@ -56,7 +56,7 @@ export const CollectedWaste = pgTable("collected_waste", {
   status: varchar("status", { length: 255 }).notNull().default("collected"),
 });
 
-export const Notification = pgTable("notifications", {
+export const Notifications = pgTable("notifications", {
   id: serial("id").primaryKey(),
   user_id: integer("user_id")
     .references(() => Users.id)
