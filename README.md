@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EcoHero 🌿
 
-## Getting Started
+**Empowering Communities to Turn Waste into Wealth**
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-14-blue.svg)](https://nextjs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**EcoHero** is an AI-powered waste management platform designed to incentivize and streamline waste reporting and collection. Our goal is to foster a community-driven approach to waste management, rewarding users for their eco-friendly actions and making our planet a cleaner place.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **AI-Assisted Waste Verification**: Leverage Google's Gemini AI to verify and categorize reported waste.
+- **User Reward System**: Earn rewards and climb the leaderboard for your eco-friendly contributions.
+- **Real-Time Task Management**: Streamline waste collection tasks within the community.
+- **Interactive Leaderboard**: Engage with others and see top contributors in your area.
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 14**: [https://nextjs.org/](https://nextjs.org/)
+- **Drizzle ORM**: [https://orm.drizzle.team/](https://orm.drizzle.team/)
+- **Tailwind CSS**: [https://tailwindcss.com/](https://tailwindcss.com/)
+- **Google Gemini AI**: [https://ai.google.dev/](https://ai.google.dev/)
+- **Web3Auth**: [https://web3auth.io/](https://web3auth.io/)
+- **Neon Database**: [https://neon.tech/](https://neon.tech/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/Krysto-nc-dev/ecohero.git
+   cd ecohero
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+
+   Create a `.env` file and add your environment variables as per the `.env.example`.
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to see the app.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Show Your Support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+_Made with ❤️ 🍀 by Stoyann Velten for Krysto_
